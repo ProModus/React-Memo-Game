@@ -99,7 +99,7 @@ const handleCardClick = (card) =>{
 }
 
 const isGameComplete = matchedCards.length === cardValues.length;
-const isGameOver = moves === 20 && !isGameComplete;
+const isGameOver = moves === 21 && !isGameComplete;
 
 return {cards, score, moves, isGameComplete, initializeGame, handleCardClick, isGameOver}
 }
